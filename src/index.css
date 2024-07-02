@@ -25,31 +25,31 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-24 px-12 sm:py-32 py-16; /* Increased padding values */
   }
 
   .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-24 px-12; /* Increased horizontal padding values */
   }
 
   .padding-y {
-    @apply sm:py-24 py-12;
+    @apply sm:py-32 py-16; /* Increased vertical padding values */
   }
 
   .padding-l {
-    @apply sm:pl-16 pl-8;
+    @apply sm:pl-24 pl-12; /* Increased left padding values */
   }
 
   .padding-r {
-    @apply sm:pr-16 pr-8;
+    @apply sm:pr-24 pr-12; /* Increased right padding values */
   }
 
   .padding-t {
-    @apply sm:pt-24 pt-12;
+    @apply sm:pt-32 pt-16; /* Increased top padding values */
   }
 
   .padding-b {
-    @apply sm:pb-24 pb-12;
+    @apply sm:pb-32 pb-16; /* Increased bottom padding values */
   }
 
   .info-text {
